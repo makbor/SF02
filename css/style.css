@@ -979,10 +979,56 @@ body{
     }
     .header-nav,.button-header{
         display: none;
+    }.start-page__text{
+        width: 100%;
+        text-align: center;
+    }
+    .start-page__subtitle{
+        width: 400px;
+        margin: 40px auto 0;
+    }
+    .completed-projects-container{
+        max-width: 728px;
+        display: flex;
+        margin: 0 auto  ;
+    }
+    .completed-projects__text{
+        margin: 30px auto 0;
+        text-align: center  ;
+    }
+    .completed-projects__title{
+        width: 400px;
+    }
+    .completed-projects__img{
+        margin: 40px auto 0;
+    }
+    .completed-projects__photo{
+        height: 250px;
+        background-position: center;
+        background-size: cover;
+    }
+    .completed-projects__options{
+        margin: 20px auto;
+    }
+    .completed-projects__slider{
+        display: none;
+    }
+    .online-control-container{
+        width: 100%;
     }
     .clients-container{
         justify-content: space-around;
         flex-wrap: wrap;
+    }
+    .questions{
+        width: 100%;
+    }
+    .map-container{
+        width: 100%;
+    }
+    .map__img{
+        width: 100%;
+        margin: 20px -20px;
     }
 
 @media screen and (max-width:768px){
@@ -1223,9 +1269,7 @@ body{
         background-color: #181818;
         background-image: none;
     }
-    .full-width::before{
-        background-color: #181818;
-    }
+
     .examples-container{
         max-width: 728px;
         flex-direction: column;
